@@ -4,7 +4,7 @@ cp ~/.config/i3 ~/.config/i3_old
 
 rm -r  ~/.config/i3/
 
-mv i3/config ~/.config/i3
+mv i3/ ~/.config/i3
 
 sudo pacman -Sy kitty firefox feh ttf-anonymicepro-nerd polybar neofetch rofi 
 
