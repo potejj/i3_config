@@ -1,12 +1,14 @@
 #!/bin/bash
 
+cd compton.conf ~/.config
+
 cp ~/.config/i3 ~/.config/i3_old
 
 rm -r  ~/.config/i3/
 
 mv i3/ ~/.config/
 
-sudo pacman -Sy kitty firefox feh ttf-anonymous-pro polybar neofetch rofi 
+sudo pacman -Sy kitty firefox feh ttf-anonymous-pro polybar neofetch rofi picom
 
 cp ~/.config/kitty ~/.config/kitty_old
 
